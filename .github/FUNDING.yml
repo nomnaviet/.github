@@ -1,0 +1,3 @@
+# Org-wide default for github.com/nomnaviet
+# Applies to every repo that does not define its own .github/FUNDING.yml
+github: [nomnaviet, nhatvu148]
