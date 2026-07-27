@@ -1,0 +1,80 @@
+name: Character data correction
+description: A reading, meaning, classification, variant or decomposition is wrong or missing
+title: "data: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping fix the dictionary. **A source citation is required** — we can't
+        act on a correction we're unable to verify, even when it's obviously right.
+
+        If you're comfortable editing files, the data lives in
+        [nomnaviet-contrib](https://github.com/nomnaviet/nomnaviet-contrib) as plain JSON/CSV
+        and a pull request will land much faster than an issue.
+
+  - type: input
+    id: character
+    attributes:
+      label: Character
+      description: Paste the character itself. If it shows as a box (□) for you, give the Unicode codepoint instead (e.g. U+2F02F).
+      placeholder: 𠊛
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong
+      options:
+        - Hán Việt reading
+        - Nôm reading
+        - Vietnamese meaning
+        - Formation classification (A1–G2)
+        - Dị thể / variant pair
+        - Component decomposition (IDS)
+        - Stroke order
+        - Compound word
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What the site currently shows
+      placeholder: Currently listed as "nguời"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What it should be
+      placeholder: Should be "người"
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: >
+        A dictionary with page number, or a link. Examples: Tự Điển Chữ Nôm Dẫn Giải
+        (Nguyễn Quang Hồng, 2014) p. 412; nomfoundation.org lookup; Unihan kSemanticVariant;
+        a photograph of a woodblock page.
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Page on nomnaviet.com
+      description: Optional, but it saves us a search.
+      placeholder: https://nomnaviet.com/vi/character/%F0%A0%8A%9B
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Optional. Regional variation, dating, disagreement between sources, etc.

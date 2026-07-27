@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Look up a character first
+    url: https://nomnaviet.com
+    about: Most questions about a reading or meaning are answered by the dictionary itself.
+  - name: Contribute character data directly
+    url: https://github.com/nomnaviet/nomnaviet-contrib
+    about: Classifications, variants, decompositions and translations are plain JSON/CSV files — a pull request is faster than an issue.

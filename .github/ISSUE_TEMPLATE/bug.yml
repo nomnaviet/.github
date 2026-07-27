@@ -1,0 +1,59 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did this happen
+      options:
+        - Website (nomnaviet.com)
+        - iOS app
+        - Android app
+        - iOS system keyboard
+        - Android system keyboard
+        - Chrome extension (Soạn Nôm)
+        - RIME schema (rime-nom-viet)
+        - Stroke order editor (make-me-a-chunom)
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: If a character renders as a box (□), say so — that is usually a font coverage issue rather than missing data.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Search for 𠊛
+        2. Tap the Dị thể row
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: App or extension version
+      description: Optional. On mobile, Profile → About shows the version.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Device / OS / browser
+      placeholder: iPhone 15, iOS 18.2 — or Chrome 131 on macOS
