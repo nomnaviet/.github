@@ -39,4 +39,13 @@ If you read Hán Nôm and want to help in a bigger way — reviewing readings, d
 
 ## Built on the work of others
 
-Our data stands on [Nomfoundation.org](https://nomfoundation.org/), [ThiVien](https://hvdic.thivien.net/), the Unicode [Unihan Database](https://unicode.org/charts/unihan.html), Nguyễn Quang Hồng's *Tự Điển Chữ Nôm Dẫn Giải* (NXB Khoa học Xã hội, 2014), [Vietnamese Wikisource](https://vi.wikisource.org/), [CC-CEDICT](https://cc-cedict.org/), and [EDRDG](https://www.edrdg.org/). Thank you.
+None of this exists without the scholars and institutions who did the hard part first:
+
+- [**Vietnamese Nôm Preservation Foundation**](https://nomfoundation.org) · [**Digitizing Vietnam**](https://www.digitizingvietnam.com) **(Columbia University)** — Nôm character data, glyph variants, and historical citations (co-owned by VNPF & Columbia/DVN). VNPF also created the [NomNaTong](https://github.com/nomfoundation/font) typeface (MIT), which is why rare Extension B/C glyphs render here at all.
+- ***Tự Điển Chữ Nôm Dẫn Giải*** — Nguyễn Quang Hồng, NXB Khoa học Xã hội (2014). Source of the A1–G2 formation classifications; digital edition mirrored via [Digitizing Vietnam](https://github.com/panda1835/digitizing-vietnam-website).
+- ***Giúp Đọc Nôm và Hán Việt*** — LM. Anthony Trần Văn Kiệm, NXB Đà Nẵng (2004); digital edition mirrored via [Digitizing Vietnam](https://github.com/panda1835/digitizing-vietnam-website).
+- [**ThiVien**](https://hvdic.thivien.net) — Hán Việt and Nôm readings.
+- [**Unihan Database**](https://unicode.org/charts/unihan.html) — Unicode Consortium.
+- [Vietnamese Wikisource](https://vi.wikisource.org/), [CC-CEDICT](https://cc-cedict.org/), [EDRDG](https://www.edrdg.org/), and [ctext.org](https://ctext.org/) for classical texts and cross-script readings.
+
+Full attribution, including every bundled font and its designer: [nomnaviet.com/about](https://nomnaviet.com/en/about)
