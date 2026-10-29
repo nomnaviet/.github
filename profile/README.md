@@ -1,6 +1,6 @@
 # Nôm Na Việt (喃哪越)
 
-> Open tools for Vietnamese Hán Nôm (漢喃) studies — dictionary, converter, OCR, input methods, and a classical text reader.
+> Free tools for Vietnamese Hán Nôm (漢喃) studies — dictionary, converter, OCR, input methods, and a classical text reader.
 
 Hán Nôm is the logographic script Vietnamese was written in for roughly a thousand years. Almost nobody can read it today. We build the tools that make it approachable: look up a character you can't pronounce, turn a Vietnamese sentence into Chữ Nôm, photograph a woodblock page, type Nôm on a phone keyboard, or read Truyện Kiều with per-character annotations.
 
@@ -22,6 +22,8 @@ Hán Nôm is the logographic script Vietnamese was written in for roughly a thou
 Available on the web, iOS, and Android, in Vietnamese, English, French, and Traditional Chinese.
 
 ## Repositories
+
+The platform itself is closed source and free to use. These are the parts that are open:
 
 | Repo | What it is |
 |---|---|
