@@ -10,7 +10,7 @@ Hán Nôm is the logographic script Vietnamese was written in for roughly a thou
 
 | | |
 |---|---|
-| **Dictionary** | 46,000+ characters (19,000 of them in CJK Extension B) and 72,000+ compounds, including 30,000+ thành ngữ idioms. Search by character, Hán Việt reading, Vietnamese meaning, or semantics, with component and radical search for when you can only see the shape. Definitions are shown one dictionary at a time, in an order you choose: Tự Điển Chữ Nôm Dẫn Giải, Nguyễn Trãi Quốc Âm Từ Điển, the Kangxi Zidian (康熙字典), Thuyết Văn Giải Tự (說文解字) and more. Readings in Mandarin, Cantonese, Japanese and Korean, and Middle Chinese phonology from Guangyun (廣韻). |
+| **Dictionary** | 46,000+ characters (19,000 of them in CJK Extension B) and 72,000+ compounds, including 30,000+ thành ngữ idioms. Search by character, Hán Việt reading, Vietnamese meaning, or semantics, with component and radical search for when you can only see the shape. Definitions are shown one dictionary at a time, in an order you choose: Tự Điển Chữ Nôm Dẫn Giải, Nguyễn Trãi Quốc Âm Từ Điển, Khang Hy Tự Điển (康熙字典, the Kangxi Zidian), Thuyết Văn Giải Tự (說文解字) and more. Readings in Mandarin, Cantonese, Japanese and Korean, and Middle Chinese phonology from Guangyun (廣韻). |
 | **Converter** | Vietnamese ↔ Chữ Nôm in both directions. Việt → Nôm weighs each word's candidates against the rest of its line, using a model trained on the aligned Hán Nôm corpus. |
 | **Reader** | 36 classical texts — 5 Truyện Kiều variant editions (1866–1902) with scholarly footnotes, Quốc Âm Thi Tập (15th century), Hồ Xuân Hương, Chinh Phụ Ngâm Khúc, Việt Nam Bách Gia Thi, Tam Quốc Chí Diễn Nghĩa, Catholic Nôm prayers — in stacked, side-by-side, or classical vertical layouts. |
 | **Camera OCR** | Photograph a woodblock or manuscript page. 96.6% top-1 on real-world crops; rare Nôm characters reach 93.9% via style-transfer augmentation. |
@@ -38,7 +38,7 @@ The most useful thing you can do needs no code at all. Two datasets have large, 
 
 Both live in [nomnaviet-contrib](https://github.com/nomnaviet/nomnaviet-contrib) as flat files you can edit from the GitHub web UI. Translations into Vietnamese, English, French and Chinese are welcome there too.
 
-You can also correct OCR output on manuscript pages at [nomnaviet.com/contribute](https://nomnaviet.com/en/contribute).
+You can also correct OCR output on manuscript pages at [nomnaviet.com/contribute](https://nomnaviet.com/contribute).
 
 If you read Hán Nôm and want to help in a bigger way — reviewing readings, digitizing a dictionary, checking OCR output — open a discussion or reach out.
 
@@ -50,8 +50,8 @@ None of this exists without the scholars and institutions who did the hard part 
 - ***Tự Điển Chữ Nôm Dẫn Giải*** — Nguyễn Quang Hồng, NXB Khoa học Xã hội (2014). Source of the A1–G2 formation classifications; digital edition mirrored via [Digitizing Vietnam](https://github.com/panda1835/digitizing-vietnam-website).
 - ***Giúp Đọc Nôm và Hán Việt*** — LM. Anthony Trần Văn Kiệm, NXB Đà Nẵng (2004); digital edition mirrored via [Digitizing Vietnam](https://github.com/panda1835/digitizing-vietnam-website).
 - ***Nguyễn Trãi Quốc Âm Từ Điển*** — Trần Trọng Dương; used by permission, digital text provided by [Digitizing Vietnam](https://www.digitizingvietnam.com).
-- ***Khang Hy tự điển*** (康熙字典, 1716) — text digitised by [Simon Wiles](https://simonwiles.net/projects/kangxi-zidian/) (CC0), converted by kangxiDictText (MIT).
-- ***Thuyết văn giải tự*** (說文解字, Hứa Thận) with Đoàn Ngọc Tài's commentary (說文解字注, 1815).
+- ***Khang Hy Tự Điển*** (康熙字典, 1716) — text digitised by [Simon Wiles](https://simonwiles.net/projects/kangxi-zidian/) (CC0), converted by [kangxiDictText](https://github.com/7468696e6b/kangxiDictText) (MIT).
+- ***Thuyết Văn Giải Tự*** (說文解字, Hứa Thận) with Đoàn Ngọc Tài's commentary (說文解字注, 1815) — text digitised by [shuowen.org](https://github.com/shuowenjiezi/shuowen) (Apache-2.0).
 - [**chinese-xinhua**](https://github.com/pwxcoo/chinese-xinhua) — idiom list and their sources (出處).
 - [**ThiVien**](https://hvdic.thivien.net) — Hán Việt and Nôm readings.
 - [**Unihan Database**](https://unicode.org/charts/unihan.html) — Unicode Consortium.
