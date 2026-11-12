@@ -14,7 +14,7 @@ Hán Nôm is the logographic script Vietnamese was written in for roughly a thou
 | **Converter** | Vietnamese ↔ Chữ Nôm in both directions. Việt → Nôm weighs each word's candidates against the rest of its line, using a model trained on the aligned Hán Nôm corpus. |
 | **Reader** | 36 classical texts — 5 Truyện Kiều variant editions (1866–1902) with scholarly footnotes, Quốc Âm Thi Tập (15th century), Hồ Xuân Hương, Chinh Phụ Ngâm Khúc, Việt Nam Bách Gia Thi, Tam Quốc Chí Diễn Nghĩa, Catholic Nôm prayers — in stacked, side-by-side, or classical vertical layouts. |
 | **Camera OCR** | Photograph a woodblock or manuscript page. 96.6% top-1 on real-world crops; rare Nôm characters reach 93.9% via style-transfer augmentation. |
-| **Input methods** | Type Vietnamese in Telex, get Chữ Nôm — on the web, as a native iOS and Android **system keyboard** (works in any app), in Chrome, or through RIME on desktop. |
+| **Input methods** | Type Vietnamese in Telex, get Chữ Nôm — on the web, as a native iOS and Android **system keyboard** (works in any app), in Chrome, and on the desktop with [**Soạn Nôm**](https://github.com/nomnaviet/soan-nom) for macOS, Windows and Linux (or through RIME). |
 | **Learning** | Spaced-repetition flashcards over 3,990+ characters graded by level, with formation classifications explaining *how* each character was built. |
 | **For AI assistants** | An [MCP server](https://nomnaviet.com/en/mcp) (`com.nomnaviet/han-nom` in the official registry) gives Claude and other clients character lookup, full dictionary entries, conversion, and corpus search, with every definition attributed to its source. In the app, Bé Na answers questions about Hán Nôm. |
 | **Nommoji** | A Hán Nôm notes app: six calligraphic styles, classical vertical writing, and a built-in Telex → Nôm keyboard. [Coming to the App Store](https://nomnaviet.com/en/nommoji). |
@@ -28,8 +28,11 @@ The platform itself is closed source and free to use. These are the parts that a
 | Repo | What it is |
 |---|---|
 | [**nomnaviet-contrib**](https://github.com/nomnaviet/nomnaviet-contrib) | Community character data and translations. Plain JSON and CSV — no build step, edit in the browser. |
+| [**soan-nom**](https://github.com/nomnaviet/soan-nom) | Downloads of Soạn Nôm, the Chữ Nôm input method for macOS, Windows and Linux. |
 | [**rime-nom-viet**](https://github.com/nomnaviet/rime-nom-viet) | RIME input schema for Chữ Nôm. 100,000+ entries including 46,000 compounds. macOS, Windows, Linux, iOS, Android. |
 | [**make-me-a-chunom**](https://github.com/nomnaviet/make-me-a-chunom) | Stroke order editor for Chữ Nôm, including CJK Extension B/C/D. Fork of [make-me-a-hanzi](https://github.com/skishore/makemeahanzi). |
+
+**How it's built:** one typing engine on seven platforms, the OCR pipeline, and the decisions not taken: [ARCHITECTURE.md](https://github.com/nomnaviet/.github/blob/main/ARCHITECTURE.md).
 
 ## Contributing
 
